@@ -1,14 +1,9 @@
 function firstWord(s) {
   // your code here
-	let str=s.split(" ");
-	 let temp=str[0];
-	let i=0;
-	while(temp[i]==" ")
-		{
-			i++;
-}
-	let ans= temp.substring(i,temp.length);
+	let temp=s.trim();
+	let ans=temp.split(" ")[0];
 	return ans;
+
 	
 }
 
